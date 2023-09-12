@@ -1,0 +1,167 @@
+body {
+    display: flex;
+    margin: auto;
+    padding: auto;
+    font-family: Arial, sans-serif;
+}
+.principal{
+    flex: 1;
+    
+    
+}
+#Correo {
+    width: 350px;
+    
+}
+#sub{
+    margin-left: 270px;
+    height: 30px;
+    width: 90px;
+    font-size: 15px;
+    border-radius: 100px;
+    color:white;
+    background-color: rgb(177, 32, 80);
+    border-color: white;
+}
+.oculto{
+    flex: 2;
+    
+    border: solid 1px;
+    width: 380px;
+    padding: 20px;
+    margin-left: -200px;
+    margin-top: 30px;
+    
+
+}
+
+  .pie a{
+    color: #FFF;
+  }
+
+input{
+   width:  100px;
+}
+#email{
+    width:  300px !important;
+ }
+
+
+
+.oculto1{
+    text-align: center;
+    
+}
+#acapite2, #acapite4{
+    background-color: white;
+    border: solid 1px;
+}
+
+.menu {
+    background-color: pink;
+    color: black;
+    width: 200px;
+    height: 50px;
+    
+}
+.menu2 {
+    background-color: pink;
+    color: black;
+    width: 200px;
+    height: 50px;
+    margin-top: 250px;
+    
+}
+
+
+
+.acapite {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.content {
+    flex: 1;
+   
+}
+.oculto {
+    display: none;
+}
+.content{
+    padding: 20px;
+}
+#mostrar{
+    display: none;
+}
+
+#mostrarMensaje{
+
+    background-color: rgb(177, 32, 80);
+    width: 21%;
+    height: 50px;
+    color: white;
+    border-color: white;
+    border-radius: 100px;
+    
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 150px;
+   
+    text-align: center;
+
+}
+.oculto1:hover {
+    cursor: pointer;
+}
+#mensaje{
+    width: 40%;
+    height: 26px;
+    margin-left: -60px;
+    margin-top: 30px;
+    border-width: 20%;
+    background-color: rgb(243, 91, 142);
+    color: white;
+    font-size: 20px;
+}
+.oculto1, .oculto2{
+    display: none;
+}
+#mostrarMensaje{
+    display: none;
+}
+#adminTable {
+    margin-top: 200px;
+    
+    margin-left: -200px;
+    margin-top: 40px;
+    padding: 20px;
+    
+    
+   
+   
+
+}
+
+#adminTable th, #adminTable td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    
+   
+    
+}
+
+
+#adminTable th {
+    background-color: #f2f2f2;
+    
+    
+}
+
+
+
+
+
+
+
+

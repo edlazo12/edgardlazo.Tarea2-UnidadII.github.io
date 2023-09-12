@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú Dinámico</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="principal">
+    <div class="menu">
+        <div id="acapite1" class="acapite">Inicio</div>
+        <div id="acapite2" class="acapite">Formulario</div>
+    </div>
+    <div class="menu2">
+        <div id="acapite3" class="acapite">Inicio</div>
+        <div id="acapite4" class="acapite">Formulario</div>
+    </div>
+
+</div>
+    <div class="content">
+        <div id="mensaje" class="oculto1">Bienvenido al mundo web</div>
+        <button id="mostrarMensaje">Saludar</button>
+        <div id="formu" class="formu">
+        <form id="formulario" class="oculto">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name">
+			<label for="name">Apellido:</label>
+            <input type="text" id="apellido" name="apellido">
+            <br>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <input type="submit" id="sub" value="Guardar">
+        </form>
+        <button id="mostrar">mostrar</button>
+        <table id="adminTable" class="oculto2">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+					<th>Apellido</th>
+                    <th>Email</th>
+                    <th>Opcion</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+            </tbody>
+        </table>
+   
+        
+    </div>
+    </div>
+    <script src="script.js"></script>
+
+   
+</body>
+</html>
